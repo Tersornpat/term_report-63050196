@@ -1,0 +1,13 @@
+Create table data (
+id int Not null,
+death_year int,
+weeknum int,
+province varchar(255),
+age int,
+age_range varchar(255),
+occupation varchar(255),
+death_type varchar(255),
+death_cluster varchar(255),
+update_date varchar(255),
+PRIMARY KEY (id)
+);
